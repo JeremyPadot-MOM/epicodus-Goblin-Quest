@@ -1,0 +1,11 @@
+/Users/Guest/Desktop/GoblinQuest/obj/Debug/netcoreapp2.2/GoblinQuest.csprojAssemblyReference.cache
+/Users/Guest/Desktop/GoblinQuest/obj/Debug/netcoreapp2.2/GoblinQuest.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/GoblinQuest/obj/Debug/netcoreapp2.2/GoblinQuest.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/GoblinQuest/obj/Debug/netcoreapp2.2/GoblinQuest.AssemblyInfo.cs
+/Users/Guest/Desktop/GoblinQuest/bin/Debug/netcoreapp2.2/GoblinQuest.deps.json
+/Users/Guest/Desktop/GoblinQuest/bin/Debug/netcoreapp2.2/GoblinQuest.runtimeconfig.json
+/Users/Guest/Desktop/GoblinQuest/bin/Debug/netcoreapp2.2/GoblinQuest.runtimeconfig.dev.json
+/Users/Guest/Desktop/GoblinQuest/bin/Debug/netcoreapp2.2/GoblinQuest.dll
+/Users/Guest/Desktop/GoblinQuest/bin/Debug/netcoreapp2.2/GoblinQuest.pdb
+/Users/Guest/Desktop/GoblinQuest/obj/Debug/netcoreapp2.2/GoblinQuest.dll
+/Users/Guest/Desktop/GoblinQuest/obj/Debug/netcoreapp2.2/GoblinQuest.pdb
