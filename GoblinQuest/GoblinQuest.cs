@@ -67,7 +67,22 @@ namespace GoblinQuest.Models
 | |( )| || |   | ||  __)                                                                                      
 | || || || |   | || (                                                                                         
 | () () || (___) || (____/\ _                                                                                 
-(_______)(_______)(_______/(_)    ");
+(_______)(_______)(_______/(_)   
+
+ ");
+      Console.WriteLine(@"                     ______
+                  .-        -.
+                 /            \
+                |              |
+                |,  .-.  .-.  ,|
+                | )(__/  \__)( |
+                |/     /\     \|
+      (@_       (_     ^^     _)
+ _     ) \_______\__|IIIIII|__/__________________________
+(_)@8@8{}<________|-\IIIIII/-|___________________________>
+       )_/        \          /
+      (@           `--------` ");
+
       }
       GoblinVillage();
 
@@ -75,33 +90,108 @@ namespace GoblinQuest.Models
 
     public void GoblinVillage()
     {
-      Console.WriteLine("~ Act Two. The Villager. ~");
-      Console.WriteLine("You exit your small Goblin home and make your way to the village square. Somone must have seen something suspicious. Somone must have the answers you seek.");
-      Console.WriteLine("You see a Village merchant selling its wares. Odds and ends mostly. They are known for their steep prices, and loose tongue.");
-      Console.WriteLine("Would you like to approach the Villager? (y/n");
+      Console.WriteLine("Continue your quest? (y/n)");
       Console.ReadLine();
-      Console.WriteLine("Villager: 'What do you want?' press 1/2 for questions 1- notice anything suspicious/missing cat? 2- do you have any wares?"); 
+      Console.WriteLine(@"	
+      .......::::::::::::)..           .......................(::::::........
+      .:::::;;;;;;;;):::::::.... .           .......:::::::::::::<......
+          <  >>>                   ,.
+  .::..  ;   I;L\  /L\.  ..::..   /iL.           |         ..::::::::::::..
+        ;    II;L\/LLLL;         / I;L\    \     |     / /\_
+             II;..LLLLLL\    _._/ I;:.L\     \   |   / _/J; \         
+      :     IIIIi;..LLLLL\__/   IIII:..L\____  \###/  /JJI:  \     The Goblin Village.
+    ,;     ILIi;;;:...:LLL;\      IIIII;.LLLLL\#####/JJ II;   \
+   ;     I LLii;;;.:.. :LLL;\     III;;;::LLLLL\###/JJ IIII;   \_.
+  :     IIILiii;;::.... :LLL;|      ;;I;;::.:LLLLLL:;IJ IIIII;:   \__.
+           IIIII IIii;;::;..;\          ;;:::...LLLL;IJIII;;    :::   \
+:    ;    IIIIIIIIIii;;::.;..      _==|      ;..  :;IJIII;:::    ::    \
+    ;    ::::::::::::;;::..;  _==|   )__)  |                            \
+ '  '`  `  ``'``'``  ``'`  '`    )_)  )___) ))  ``''`   ``'`  `'` `'`'`'  `'``
+        '``   ``^^       ^~   )___) )____))_)   ~~         ``^^^``  '  `  `~`
+' ^^            ^        _    )____)_____))__)\      ~^~~^           ^^`
+     '^^          ^~      \---__|____/|___|___-\\--        `~`~         `~`
+   ''    '^          ~`~   \   oo oo oo oo     /      ~`      '~       ``~`
+        ____   ^^^`~   ~~^^^^^^^^^^^^^^^^^^^^^^    ^~^            ^~^^^
+      /  o   \     ``'`  __          __ `'`''     '   ''~     ~``~``    ``''
+    < ____     \`'`    /    \   `' /    \       _          _    `~    _
+          |     |     |  __  |    |  __  |    /   \      /   \       / |
+    '''   |_____|  '  |__||__| '' |__||__| ' |_____| '' |_____| ``  /_/
+         '''     ~^^^^      '```^^'''''^        '''''''``        '''''^^``
+   ''          '^^           ~^^~          ~^ '      ~~      '  ^   ^^^^^^^^
+");
+      Console.WriteLine("~ Act Two. The Villager. ~");
+      Console.WriteLine("You exit your small Goblin home and make your way to the village square. Somone must have seen something suspicious.. Somone must have the answers you seek.");
+      Console.WriteLine("You see the Village merchant selling its wares. Odds and ends mostly. They are known for their steep prices, and loose tongue.");
+      Console.WriteLine("Would you like to approach the Villager? (y/n)");
+      Console.ReadLine();
+    Console.WriteLine(@"            
+               _.------.
+           _.-`    ('>.-````-.
+ '.__.---'`       _'`   _ .--.)
+       -'         '-.-';`   `
+        ' -      _.'  ``'--. 
+            '---`    .-'```
+                   /`");
+      Console.WriteLine("`Brrraaaaakkkkkkkkk` the Village merchant lets out a log caw. Its chipped beak shakes violently as it grooms its dark feathers.");
+      Console.WriteLine("Villager: 'Braaaakkkk...What do you want adventurer? Braaaakkkkk! I have salt yes, spice from the Gro-Lok'thu clan, Braaakkkkk. See anything you like?'");
+      Console.WriteLine("Select: (1) Have you seen anything suspicious? (2) Bribe to see secret wares");
       string response = Console.ReadLine();
       if (response == "1")
       {
-        Console.WriteLine("response 1 from villager exposes froglok identity");
-        Console.WriteLine("'Don't tell me you're planning on going after them.... If you are, you'll need this...");
-        Console.WriteLine("~Villager hands you a chipped scimitar~");
-        Console.WriteLine("**Parting message**");
+        Console.WriteLine("Brrraaakkkk! Why yes I have! A wiley band of Froglok made way this night. Yes.. Up to no good they are!  Braaaakkkkk! Uncivilized beasts! Braaakkkk!! I heard them last night I did. Making their way into the dark Forest. They had a small prisoner.. Braaakkk!!! In a small cage!");
+        Console.WriteLine("Would you like to pay for the information? Toss a coin? (y/n)");
+        string response1 = Console.ReadLine();
+        if (response1 == "y")
+        {
+        Console.WriteLine("'Don't tell me you're planning on going after them.... Braaaaakkkkk!!! The road is dangerous! Here. Take this.. Brraaaaakkk!");
+        Console.WriteLine("The villager hands you a long wrapped package");
+        Console.WriteLine("Behold.");
+        Console.WriteLine(@"
+
+                                                      )         
+                                                        (                                
+                                                      '    }      
+                                                    (    '      
+                                                   '      (   
+                                                    )  |    ) 
+                                                  '   /|\    `
+                                                 )   / | \  ` )   
+                  THE                           {    | | |  {   
+               BLADE                           }     | | |  .
+                OF                              '    | | |    )
+              WOE.                             (    /| | |\    .
+                                                .  / | | | \  (
+                                              }    \ \ | / /  .        
+                                               (    \ `-' /    }
+                                               '    / ,-. \    ' 
+                                                }  / / | \ \  }
+                                               '   \ | | | /   } 
+                                                (   \| | |/  (
+                                                  )  | | |  )
+                                                  .  | | |  '
+                                                     J | L
+                                               /|    J_|_L    |\
+                                               \ \___/ o \___/ /
+                                                \_____ _ _____/
+                                                      |-|
+                                                      |-|
+                                                      |-|
+                                                     ,'-'.
+                                                     '---'");
         GoblinVillage2();
       }
       else
       {
-        Console.WriteLine("response 2 from villager gives you a sword on the house, youll need this");
+        Console.WriteLine("Braaaakkk!! Information is not free! Go back to your home.. Braaaakkkk!!");
         GoblinVillage2();
       }
     }
-
+  }
     public void GoblinVillage2()
     {
       inventory.Add("Sword");
       string sword = inventory[0];
-      Console.WriteLine("Item obtained: "+sword+", Blade of Woe, +3 sapping damage.");
+      Console.WriteLine("Item obtained: "+sword+", Blade of Woe. +3 sapping damage.");
       Console.WriteLine("Seems like you've done all you can here. Would you like to exit the Goblin Village? Proceed to the Dark Forest? (y/n)");
       string journey = Console.ReadLine();
       if(journey == "yes")
@@ -131,11 +221,37 @@ namespace GoblinQuest.Models
     }
     public void DarkForest()
     {
+      Console.WriteLine(@"         .        +          .      .          .
+     .            _        .                    .
+  ,              /;-._,-.____        ,-----.__
+ ((        .    (_:#::_.:::. `-._   /:, /-._, `._,
+  `                 \   _|``=:_::.`.);  \ __/ /
+                      ,    `./  \:. `.   )==-'  .
+    .      ., ,-=-.  ,\, +#./`   \:.  / /           . THE DARK FOREST.
+.           \/:/`-' , ,\ '` ` `   ): , /_  -o
+       .    /:+- - + +- : :- + + -:'  /(o-) \)     .
+  .      ,=':  \    ` `/` ' , , ,:' `'--`.--`---._/`7
+   `.   (    \: \,-._` ` + '\, ,`   _,--._,---`:.__/
+              \:  `  X` _| _,\/'   .-'
+.               `:._:`\____  /:'  /      .           .
+                    \::.  :\/:'  /              +
+   .                 `.:.  /:'  }      .
+           .           ):_(:;   \           .
+                      /:. _/ ,  |
+                   . (|::.     ,`                  .
+     .                |::.    {\
+                      |::.\  \ `.
+                      |:::(\    |
+              O       |:::/{ }  |                  (o
+               )  ___/#\::`/ (O `==._____   O, (O  /`
+          ~~~w/w~`~~,\` `:/,-(~``~~~~~~~~`~o~\~/~w|/~
+         ~~~~~~~~~~~~~~~~~~~~~~~\\W~~~~~~~~~~~~\|/~~");
       Console.WriteLine("~Sword at your side, you make your way down the dark and damp mud path through the Dark Forest...~");
       Console.WriteLine("~You hear a rustling noise behind you. Do you wish to investigate?~ (yes/no)");
       string rustle = Console.ReadLine();
       if (rustle == "yes")
       {
+        
         Console.WriteLine("~As you turn your head, you see green flash in your perriferal...  With your swift goblin speed, you're able to grab hold of the mysterious blur... The creatue you've pinned to the forest floor is a lesser Froglok!~");
         Console.WriteLine("~Rage flows through you as you think if your beloved feline companion...~  Execute or question this creature? (execute/question)");
         string frog = Console.ReadLine();
@@ -164,6 +280,21 @@ namespace GoblinQuest.Models
       {
         Console.WriteLine("~With your sword against the terrified Froglok's back, you demand to speak with their leader. ... All Froglok's freeze in place, petrified with fear for their brethren~");
         Console.WriteLine("~In the silence of terror, one larger Froglok covered in scars and jewels steps outside of his tent and walks toward you....~");
+        Console.WriteLine(@"
+                                      o  o   o  o
+                                      |\/ \^/ \/|
+                                      |,-------.|                  |
+                                    ,-.(|)   (|),-.            O%%%%#============--    
+                                    \_*._ ' '_.* _/                |
+                                      /`-.`--' .-'\                     Froge.
+                                ,--./    `---'    \,--.               Lord of the FrogLok.
+                                \   |(  )     (  )|   /
+                                 \  | ||       || |  /
+                                  \ | /|\     /|\ | /            
+                                  /  \-._     _,-/  \
+                                  //| \\  `---'  // |\\
+                                /,-.,-.\       /,-.,-.\
+                                o   o   o      o   o    o");
         Console.WriteLine("`My name is King Frogue. What do you want, goblin. We have no qualms with your kind`");
         Console.WriteLine("Option one: `Where is my cat.. I know you took him.(one)`");
         Console.WriteLine("Option two: `Tell me where he is, or your freind dies.(two)`");
